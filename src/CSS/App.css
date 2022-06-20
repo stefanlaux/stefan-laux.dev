@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+/*
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: darkgrey;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+*/
+
+.buttonsNav{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  align-items: center;
+  white-space: nowrap;
+}
+
+.sticky{
+  position: sticky;
+  top: 0;
+}
+
+
+.title{
+  position: absolute;
+  white-space: nowrap;
+  font-size: 700%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.rightBtn {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.rightBtn:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.rightBtn:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom right;
+}
+
+
+
+
+
+.leftBtn {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.leftBtn:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.leftBtn:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
