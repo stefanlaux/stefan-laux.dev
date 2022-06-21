@@ -16,7 +16,20 @@ export default function TitleBody() {
 
     return (
             <ThemeProvider theme={theme}>
-            <Typography className={"title"}>STEFAN LAUX</Typography>
+                <div className="title-body">
+                    <Typography className={"title"}>S</Typography>
+                    <Typography className={"title"}>T</Typography>
+                    <Typography className={"title"}>E</Typography>
+                    <Typography className={"title"}>F</Typography>
+                    <Typography className={"title"}>A</Typography>
+                    <Typography className={"title"}>N</Typography>
+                    <Typography className={"title"}> </Typography>
+                    <Typography className={"title"}>L</Typography>
+                    <Typography className={"title"}>A</Typography>
+                    <Typography className={"title"}>U</Typography>
+                    <Typography className={"title"}>X</Typography>
+                </div>
+
             </ThemeProvider>
     );
 }

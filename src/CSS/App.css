@@ -4,19 +4,7 @@ html{
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-/*
-body::-webkit-scrollbar {
-  width: 1em;
-}
 
-body::-webkit-scrollbar-track {
-  background-color: darkgrey;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-}
-*/
 
 .buttonsNav{
   position: absolute;
@@ -33,12 +21,23 @@ body::-webkit-scrollbar-thumb {
 
 
 .title{
-  position: absolute;
+  position: relative;
   white-space: nowrap;
-  font-size: 700%;
+  display: inline;
+  transition: 0.18s ease-in-out;
+}
+.title:hover{
+  color: #0087ca;
+}
+.icons:hover{
+  color: #ffc107;
+}
+
+.title-body{
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 
