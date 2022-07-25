@@ -3,8 +3,20 @@
 html{
   overflow-x: hidden;
   scroll-behavior: smooth;
+  user-select: none;
 }
 
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+body::-webkit-scrollbar-track {
+
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #8d8882;
+
+}
 
 .buttonsNav{
   position: absolute;

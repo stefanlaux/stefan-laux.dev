@@ -4,7 +4,7 @@ import "./CSS/mobileHidden.css";
 import {useEffect} from "react";
 import Home from "./Content/Home/Home";
 import Projects from "./Content/Projects/Projects";
-import {createStyles} from "@mui/material";
+import {createStyles, makeStyles} from "@mui/material";
 import {Theme} from "@emotion/react";
 import AboutMe from "./Content/AboutMe/AboutMe";
 
@@ -36,6 +36,8 @@ export default function ToggleColorMode() {
         }),
         [],
     );
+
+
     useEffect(() => {
         localStorage.setItem('theme', mode);
     }, [mode]);
@@ -47,7 +49,7 @@ export default function ToggleColorMode() {
                 palette: {
                     mode,
                 },
-                //change scollbar color
+
                 
             }),
         [mode],

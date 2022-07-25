@@ -9,8 +9,7 @@ export default function Arrow() {
     return (
         <div>
             <IconButton href={"#aboutme"} color={"primary"} style={{ transform: "rotate(-90deg)", borderRadius: "100%", position: "absolute", bottom: "5%", left: "50%",}} size={"medium"} >
-                <ArrowBackIosIcon fontSize={"large"} style={{ width: 48, height: 48, top: "5%", position: "relative" }}  />
-
+                <ArrowBackIosIcon fontSize={"large"} style={{ width: 48, height: 48, textAlign: "center", position: "relative" }}  />
             </IconButton>
         </div>
     );
