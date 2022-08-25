@@ -1,6 +1,6 @@
 {
-  "homepage": "www.stefan-laux.com",
-  "name": "personalPageStefanLaux",
+  "homepage": "https://stefan-laux.com",
+  "name": "Stefan-Laux",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
