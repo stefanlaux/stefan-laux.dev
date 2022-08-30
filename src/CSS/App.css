@@ -4,6 +4,7 @@ html{
   overflow-x: hidden;
   scroll-behavior: smooth;
   user-select: none;
+  box-sizing: border-box;
 }
 
 
@@ -106,6 +107,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-.parallaxWrap{
+section{
 
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
