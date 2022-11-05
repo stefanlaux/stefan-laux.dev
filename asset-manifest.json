@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f285609.css",
-    "main.js": "/static/js/main.3d3432ba.js",
-    "static/js/787.d8a57924.chunk.js": "/static/js/787.d8a57924.chunk.js",
-    "index.html": "/index.html",
-    "main.2f285609.css.map": "/static/css/main.2f285609.css.map",
-    "main.3d3432ba.js.map": "/static/js/main.3d3432ba.js.map",
-    "787.d8a57924.chunk.js.map": "/static/js/787.d8a57924.chunk.js.map"
+    "main.css": "/stefan-laux.com/static/css/main.81344fe0.css",
+    "main.js": "/stefan-laux.com/static/js/main.fa79fd47.js",
+    "static/js/787.d8a57924.chunk.js": "/stefan-laux.com/static/js/787.d8a57924.chunk.js",
+    "index.html": "/stefan-laux.com/index.html",
+    "main.81344fe0.css.map": "/stefan-laux.com/static/css/main.81344fe0.css.map",
+    "main.fa79fd47.js.map": "/stefan-laux.com/static/js/main.fa79fd47.js.map",
+    "787.d8a57924.chunk.js.map": "/stefan-laux.com/static/js/787.d8a57924.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f285609.css",
-    "static/js/main.3d3432ba.js"
+    "static/css/main.81344fe0.css",
+    "static/js/main.fa79fd47.js"
   ]
 }
