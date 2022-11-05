@@ -1,0 +1,111 @@
+.wrap{
+    height: 300vh;
+}
+
+.professionName{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50% , 50%);
+    margin: 1%;
+    font-size: 200%;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 90vw;
+}
+
+.underline {
+   text-decoration: underline 10px;
+  }
+
+
+
+.highlight{
+    background-color: rgb(255, 115, 0);
+    color: black;
+}
+
+.nameTitle{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 1% 0 0 3%;
+    color: #e2dfdd;
+    mix-blend-mode: difference;
+    font-size: 150%;
+    font-weight: 800;
+}
+
+
+.nav{
+    display: flex;
+    gap: 5px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 1% 3% 0 0;
+    color: #e2dfdd;
+    mix-blend-mode: difference;
+    font-size: 150%;
+    font-weight: 600;
+}   
+
+.header{
+    mix-blend-mode: difference;
+    flex: 1;
+    display: flex;
+}
+
+
+.rightBtn {
+    display: inline-block;
+    position: relative;
+
+  }
+  
+  .rightBtn:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .rightBtn:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom right;
+  }
+
+  
+.leftBtn {
+    display: inline-block;
+    position: relative;
+
+  }
+  
+  .leftBtn:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .leftBtn:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
