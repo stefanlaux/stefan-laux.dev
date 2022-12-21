@@ -7,6 +7,10 @@
   scroll-behavior: smooth;
 }
 
+html::-webkit-scrollbar {
+  display: none;
+}
+
 .professionName{
     position: absolute;
     top: 15%;
