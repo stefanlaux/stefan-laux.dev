@@ -11,19 +11,7 @@
     <title>Stefan Laux</title>
   </head>
   <body>
-  <script type="text/javascript">
-                document.addEventListener("mousemove", parallax);
-                function parallax(e){
-                this.querySelectorAll(".icons").forEach(icon => {
-                    const speed = icon.getAttribute('data-speed')
-                    const x = (window.innerWidth - e.pageX * speed) / 100
-                    const y = (window.innerHeight - e.pageY * speed) / 100
 
-                  icon.style.transform = `translateX(${x}px) translateY(${y}px)`
-
-                })
-            }
-            </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

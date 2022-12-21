@@ -17,6 +17,8 @@
     "@types/react": "^18.0.13",
     "@types/react-dom": "^18.0.5",
     "aos": "^2.3.4",
+    "framer-motion": "^7.10.3",
+    "motion": "^10.15.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-parallax-mouse": "^1.7.3",

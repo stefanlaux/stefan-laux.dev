@@ -7,9 +7,10 @@
 }
 html{
   background-color: #e1dfdd;
+  cursor: crosshair;
 }
 
 *::selection{
-background-color: rgb(28, 83, 247);
-color: black;
+background-color: #6D8B74;
+
 }
