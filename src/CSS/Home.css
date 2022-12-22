@@ -32,7 +32,7 @@ html::-webkit-scrollbar {
 
 
 .highlight{
-    background-color: #6D8B74;
+    background-color: var(--color-primary);
     color: black;
 }
 
@@ -51,7 +51,7 @@ html::-webkit-scrollbar {
     top: 0;
     left: 0;
     margin: 1% 0 0 3%;
-    color: #e2dfdd;
+    color: var(--color-secondary);
     mix-blend-mode: difference;
     font-size: 150%;
     font-weight: 800;
@@ -67,7 +67,7 @@ html::-webkit-scrollbar {
     top: 0;
     right: 0;
     margin: 1% 3% 0 0;
-    color: #e2dfdd;
+    color: var(--color-secondary);
     mix-blend-mode: difference;
     font-size: 150%;
     font-weight: 600;
@@ -76,7 +76,7 @@ html::-webkit-scrollbar {
 a{
     align-content: baseline;
     text-decoration: none;
-    color: #e2dfdd;
+    color: var(--color-secondary);
     mix-blend-mode: difference;
 }
 
@@ -100,7 +100,7 @@ a{
     height: 4px;
     bottom: 0;
     left: 0;
-    background-color: #6D8B74;
+    background-color: var(--color-primary);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
@@ -125,7 +125,7 @@ a{
     height: 4px;
     bottom: 0;
     left: 0;
-    background-color: #6D8B74;
+    background-color: var(--color-primary);
     transform-origin: bottom left;
     transition: transform 0.25s ease-out;
   }
@@ -135,12 +135,25 @@ a{
     transform-origin: bottom left;
   }
   
-  .scrollProgress{
+  .scrollProgressRight{
       position: fixed;
       top: 0;
-      left: 0;
+      left: 50%;
       right: 0;
       height: 10px;
-      background: #6D8B74;
+      background: var(--color-primary);
       transform-origin: 0%;
+      z-index: 100;
   }
+
+.scrollProgressLeft{
+    position: fixed;
+    top: 0;
+    right: 50%;
+    left: 0;
+    height: 10px;
+    background: var(--color-primary);
+    transform-origin: 100%;
+    transform: rotateX(180deg);
+    z-index: 100;
+}

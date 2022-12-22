@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import "index.css";
+
+html{
+  --color-primary: #6D8B74;
+  --color-secondary: #e1dfdd;
+}
+
+
 
 *{
-  font-family: 'Lato';
+  font-family: 'Lato', serif;
   font-style: normal;
   font-weight: 900; 
 }
 html{
-  background-color: #e1dfdd;
+  background-color: var(--color-secondary);
   cursor: crosshair;
 }
 
 *::selection{
-background-color: #6D8B74;
-
+background-color: var(--color-primary);
 }

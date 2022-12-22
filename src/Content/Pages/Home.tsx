@@ -19,7 +19,6 @@ export default function Home() {
 
     useEffect(() => {
         if (isInViewTitle) {
-            console.log("in view");
            animate(
                 ".developer",
                 { opacity: 1, marginLeft: "5px" },
@@ -37,13 +36,14 @@ export default function Home() {
     return (
         <div className='wrap'>
             <div>
-                <motion.div className="scrollProgress" style={{ scaleX }} />
+                <motion.div className="scrollProgressLeft" style={{ scaleX }} />
+                <motion.div className="scrollProgressRight" style={{ scaleX }} />
             </div>
 
             <div className="header">
 
                 <div  className="nameTitle">
-                    <p>Stefan Laux</p>
+                    <p>STEFAN LAUX</p>
                 </div>
 
                 <div className="nav">
