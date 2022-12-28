@@ -10,7 +10,6 @@ export default function MyApp() {
     return (
         <div className='allWrap'>
             <Home />
-          
         </div>
 
     );

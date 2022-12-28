@@ -4,20 +4,48 @@
 html{
   --color-primary: #6D8B74;
   --color-secondary: #e1dfdd;
+  --color-dark-primary: #1d1d1d;
+  --color-dark-secondary: #242424;
+  --color-dark-inherit: rgba(23, 23, 23, 0.1);
 }
-
 
 
 *{
   font-family: 'Lato', serif;
   font-style: normal;
-  font-weight: 900; 
+  font-weight: 900;
+
 }
 html{
   background-color: var(--color-secondary);
-  cursor: crosshair;
+  transition: all 1s ease-in-out;
 }
 
 *::selection{
 background-color: var(--color-primary);
+}
+
+@media (max-width: 1207px) {
+  *{
+    overflow-x: hidden;
+  }
+  .hidden-mobile {
+    display: none;
+  }
+  .firm{
+    width: 90% !important;
+  }
+
+  .job{
+    width: 90% !important;
+  }
+
+  .item{
+    margin: 10px !important;
+  }
+}
+@media (min-width: 1207px) {
+  .hidden-desktop {
+    display: none;
+  }
 }
