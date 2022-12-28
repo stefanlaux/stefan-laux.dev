@@ -76,7 +76,7 @@ export default function Home() {
             </div>
 
             <div className="about">
-                <About />
+                <About/>
             </div>
         </div>
     );

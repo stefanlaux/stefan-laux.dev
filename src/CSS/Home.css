@@ -26,6 +26,7 @@ html::-webkit-scrollbar {
     align-content: baseline;
     justify-content: center;
     width: 90vw;
+    z-index: -1;
 }
 
 .underline {
@@ -75,7 +76,7 @@ html::-webkit-scrollbar {
     mix-blend-mode: difference;
     font-size: 150%;
     font-weight: 600;
-    z-index: 9999999;
+    z-index: 100;
 }   
 
 a{
@@ -172,6 +173,7 @@ a{
 .about{
     margin-top: 1%;
     overflow: hidden;
+    z-index: -1;
 }
 
 .backgroundTextHome p:nth-child(1){
