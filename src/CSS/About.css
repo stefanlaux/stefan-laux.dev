@@ -4,8 +4,16 @@
     padding-top: 2%;
 }
 
-.wrap{
-
+.wrapAbout{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: visible;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    width: 100vw;
 }
 
 .svgTitle{
@@ -62,7 +70,7 @@
     z-index: -99;
     rotate: -25deg;
     left: 50%;
-    top: 50%;
+    top: -30%;
     transform: translate(-50%);
 }
 
@@ -88,8 +96,11 @@
 
 .item{
     background-color: var(--color-dark-secondary);
-    opacity: 0;
     width: 90%;
+}
+
+.anim{
+    opacity: 0;
 }
 
 
@@ -120,6 +131,7 @@
     width: 100%;
     font-size: 30px;
     text-align: center;
+    overflow: hidden;
 }
 .firm img{
     width: 20%;
@@ -129,6 +141,7 @@
 .job{
     width: 100%;
     font-size: 27px;
+    overflow: hidden;
 }
 
 
@@ -141,4 +154,21 @@
 .webPlayer{
     height: 100%;
     width: 100%;
+}
+
+.iFrame{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin-top: 10%;
+}
+
+.mobileIFrame{
+    height: 30vh !important;
+    overflow-y: hidden;
+}
+
+.mobileAboutTitle{
+    font-size: 40px;
+    text-align: center;
 }

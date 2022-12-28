@@ -22,7 +22,7 @@ export default function About() {
                     path[i].style.animation = "line-anim 3s ease forwards " + (i / 10) + "s";
                 }
             }
-            animate(".item", {opacity: .8, boxShadow: "18px 18px 10px 5px var(--color-dark-inherit)"}, {
+            animate(".anim", {opacity: .8, boxShadow: "18px 18px 10px 5px var(--color-dark-inherit)"}, {
                 delay: 0.8,
                 duration: 2
             })
@@ -32,13 +32,13 @@ export default function About() {
     }, [isInViewAbout]);
 
     return (
-        <div className='wrap' id={"about"}>
-            <div className="backgroundText">
+        <div className='wrapAbout' id={"about"}>
+            <div className="backgroundText hidden-mobile">
                 <p>STEFAN LAUX</p>
             </div>
 
             <div className="refAboutMe"  ref={refAbout}>
-                <div className="hidden-desktop">
+                <div className="hidden-desktop mobileAboutTitle">
                     About Me
                 </div>
                 <div className="aboutTitle hidden-mobile">
@@ -96,10 +96,10 @@ export default function About() {
                                   justifyContent={"space-between"} className="columnRow">
                                 <Grid container direction={"row"} xs={12} sm={12} md={12} lg={12} xl={12}
                                       alignItems={"start"} justifyContent={"space-between"} className="cont">
-                                    <Grid className="cont music item" xs={12} sm={12} md={12} lg={5} xl={5}>
-                                        <iframe style={{height: "100%", width: "100%", margin: 0, padding: 0}}
+                                    <Grid className="cont music item anim" xs={12} sm={12} md={12} lg={5} xl={5}>
+                                        <iframe className="iFrame"
                                                 src="https://open.spotify.com/embed/track/4woTEX1wYOTGDqNXuavlRC?utm_source=generator"
-                                                width="100%" height="352" frameBorder="0"
+                                                 frameBorder="0"
                                                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                                                 loading="lazy">
                                         </iframe>
@@ -107,9 +107,9 @@ export default function About() {
                                     <Grid justifyContent={"space-between"} direction={"column"} xs={12} sm={12} md={12}
                                           lg={6} xl={6} className="cont containerName">
                                         <Grid item xs={12} sm={12} md={12} lg={5} xl={5}
-                                              className="cont job item" id={"job"}><p>&#60;Application Developer
+                                              className="cont job item anim" id={"job"}><p>&#60;Application Developer
                                             /&#x3e;</p></Grid>
-                                        <Grid item xs={12} sm={12} md={12} lg={5} xl={5} className="cont firm item">
+                                        <Grid item xs={12} sm={12} md={12} lg={5} xl={5} className="cont firm item anim">
                                             <p>Apprenticeship @ <img
                                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/SIX_Group_logo.svg/2000px-SIX_Group_logo.svg.png"
                                                 alt="SIX LOGO"/></p></Grid>
@@ -117,20 +117,19 @@ export default function About() {
                                 </Grid>
                             </Grid>
                             <Grid item xs={12} sm={12} md={12} lg={12} xl={12}
-                                  className="cont interests item">//TO DO</Grid>
+                                  className="cont interests item anim">//TO DO</Grid>
                         </Grid>
                         <Grid item xs={12} sm={12} md={12} lg={3} xl={3}
-                              className="cont qualifications item">// TO DO</Grid>
+                              className="cont qualifications item anim">// TO DO</Grid>
                     </Grid>
                 </Box>
             </div>
             <div className="hidden-desktop">
-                <Box sx={{flexGrow: 2}}>
-
-                    <Grid item className="cont music item" xs={12} sm={12} md={12} lg={5} xl={5}>
-                        <iframe style={{height: "100%", width: "100%", margin: 0, padding: 0}}
+                <Box sx={{flexGrow: 2}} style={{marginLeft: "5%"}}>
+                    <Grid item className="cont music item mobileIFrame" xs={9} sm={12} md={12} lg={5} xl={5}>
+                        <iframe className="iFrame"
                                 src="https://open.spotify.com/embed/track/4woTEX1wYOTGDqNXuavlRC?utm_source=generator"
-                                width="100%" height="352" frameBorder="0"
+                                width="100%" height="100%" frameBorder="0"
                                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                                 loading="lazy">
                         </iframe>

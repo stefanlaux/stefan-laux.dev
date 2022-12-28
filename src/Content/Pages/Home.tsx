@@ -50,7 +50,7 @@ export default function Home() {
 
     return (
         <div className='wrap' id={"wrap"}>
-            <div className="backgroundTextHome hidden-mobile">
+            <div className="backgroundTextHome">
                 <p>APPLICATION</p>
                 <p>DEVELOPER</p>
             </div>
@@ -61,7 +61,8 @@ export default function Home() {
                 </div>
                 <div className="header">
                     <div className="nameTitle">
-                        <p>STEFAN LAUX</p>
+                        <p className="hidden-mobile">STEFAN LAUX</p>
+                        <p className="hidden-desktop">SL</p>
                     </div>
                     <div className="nav">
                         <a href={"#work"} className='leftBtn'>&#60;Work /&#x3e; </a>
@@ -74,7 +75,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="aboutSize">
+            <div className="about">
                 <About />
             </div>
         </div>

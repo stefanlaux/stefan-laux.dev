@@ -43,6 +43,22 @@ background-color: var(--color-primary);
   .item{
     margin: 10px !important;
   }
+
+  .iFrame{
+    margin-top: 20% !important;
+  }
+
+  .professionName{
+    font-size: 12vw !important;
+  }
+
+  .backgroundTextHome{
+    rotate: 0deg !important;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
 }
 @media (min-width: 1207px) {
   .hidden-desktop {
