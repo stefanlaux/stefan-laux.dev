@@ -15,7 +15,7 @@ html::-webkit-scrollbar {
 
 .professionName{
     position: absolute;
-    top: 25vh;
+    top: 35vh;
     left: 50vw;
     transform: translate(-50% , 50%);
     margin: 1%;
@@ -26,7 +26,6 @@ html::-webkit-scrollbar {
     align-content: baseline;
     justify-content: center;
     width: 90vw;
-    z-index: -1;
 }
 
 .underline {
@@ -40,13 +39,10 @@ html::-webkit-scrollbar {
 }
 
 .developer{
-    z-index: 2;
-    margin-left: -30vw;
-    margin: 0;
+    margin: 0 0 0 -30vw;
 }
 
 .creative{
-    z-index: 1;
     opacity: 0;
     margin: 0;
 }
@@ -76,7 +72,7 @@ html::-webkit-scrollbar {
     mix-blend-mode: difference;
     font-size: 150%;
     font-weight: 600;
-    z-index: 100;
+    z-index: 1;
 }   
 
 a{
@@ -96,6 +92,7 @@ a{
 .rightBtn {
     display: flex;
     position: relative;
+    z-index: 1;
   }
   
   .rightBtn:after {
@@ -120,7 +117,7 @@ a{
 .leftBtn {
     display: inline-block;
     position: relative;
-
+    z-index: 1;
   }
   
   .leftBtn:after {
@@ -149,7 +146,7 @@ a{
       height: 10px;
       background: var(--color-primary);
       transform-origin: 0%;
-      z-index: 100;
+      z-index: 1;
   }
 
 .scrollProgressLeft{
@@ -161,7 +158,7 @@ a{
     background: var(--color-primary);
     transform-origin: 100%;
     transform: rotateX(180deg);
-    z-index: 100;
+    z-index: 1;
 }
 
 
@@ -173,7 +170,6 @@ a{
 .about{
     margin-top: 1%;
     overflow: hidden;
-    z-index: -1;
 }
 
 .backgroundTextHome p:nth-child(1){

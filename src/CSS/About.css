@@ -14,7 +14,6 @@
     transform: translate(-50%);
     position: absolute;
     width: 100vw;
-    z-index: -1;
 }
 
 .svgTitle{
@@ -68,7 +67,6 @@
     position: absolute;
     font-size: 2000%;
     filter: opacity(0.02);
-    z-index: -99;
     rotate: -25deg;
     left: 50%;
     top: -30%;
