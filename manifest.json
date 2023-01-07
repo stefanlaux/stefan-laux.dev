@@ -1,0 +1,10 @@
+{
+  "short_name": "Stefan Laux",
+  "name": "Stefan Laux | Personal Website",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1d1d1d",
+  "background_color": "#e1dfdd",
+  "description": "Stefan Laux software engineer, web developer, and designer"
+}
+
