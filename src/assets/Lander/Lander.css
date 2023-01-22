@@ -1,0 +1,47 @@
+.App{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100vh!important;
+    width: 100vw!important;
+}
+
+
+.title{
+    font-size: 5rem;
+    position: absolute;
+    width: max-content;
+    top: 10%;
+    left: 75%;
+    transform: translate(-50%);
+}
+
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("public/background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+
+.mouse{
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.25);
+    transform: translate(var(--x), var(--y));
+}
+
