@@ -35,13 +35,35 @@
 
 .mouse{
     position: absolute;
-    top: -50px;
-    left: -50px;
-    width: 100px;
-    height: 100px;
+    top: -26px;
+    left: -26px;
+    width: 50px;
+    height: 50px;
     border: 2px solid white;
     border-radius: 50%;
     box-shadow: 0 5px 25px rgba(0,0,0,0.25);
     transform: translate(var(--x), var(--y));
 }
 
+.navbarText{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navbarText div{
+    margin-top: 8%;
+    margin-left: 8%;
+    letter-spacing: 15px;
+    transition: 0.5s;
+    width: max-content;
+}
+
+.navbarText div:hover{
+    margin-left: 9%;
+    letter-spacing: 8px;
+    transition: 0.5s;
+}
