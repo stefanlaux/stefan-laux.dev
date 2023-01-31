@@ -16,7 +16,7 @@
         "target": "any",
         "platform": "any",
         "orientation": "any",
-        "lang": "any",
+        "lang": "any"
     }
   ]
 }
