@@ -8,7 +8,7 @@
   "start_url": "/",
 "icons": [
     {
-      "src": "/icon/icon.svg",
+      "src": "/icon.svg",
       "sizes": "48x48",
       "type": "image/svg",
       "purpose": "icon",
