@@ -11,7 +11,6 @@
       "src": "/icon.svg",
       "sizes": "48x48",
       "type": "image/svg",
-      "purpose": "icon",
         "density": "1.0",
         "target": "any",
         "platform": "any",
