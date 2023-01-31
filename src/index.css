@@ -1,19 +1,19 @@
-:root{
-  margin: 0;
+@font-face {
+  font-family: 'SF-Pro-Display';
+  src: url('./fonts/SF-Pro-Display-Medium.otf');
+}
+
+
+
+:root {
   padding: 0;
-  background-color: #242424;
-  font-family: Lato, Arial, sans-serif ;
-  color: white;
-  overflow-x: hidden;
-  cursor: url("public/arrow.svg") 2 2, auto;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'SF-Pro-Display', Lato;
+  font-weight: 500;
 }
 
 body{
-  margin: 0;
   padding: 0;
-}
-
-html{
   margin: 0;
-  padding: 0;
 }
