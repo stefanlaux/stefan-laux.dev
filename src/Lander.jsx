@@ -1,8 +1,13 @@
 import './Lander.css'
-import Grid2 from '@mui/material/Unstable_Grid2'; 
+import Grid2 from '@mui/material/Unstable_Grid2';
+
 
 
 function Lander() {
+
+
+
+
 
   return (
     <div className="lander">
@@ -20,11 +25,8 @@ function Lander() {
         <Grid2 item xs={12} sm={9} className="mobilehidden">
           <div className="name"><h1>STEFAN</h1><h1>LAUX</h1></div>
         </Grid2>
-  
       </Grid2>
 
-
-    
       
       
     </div>
