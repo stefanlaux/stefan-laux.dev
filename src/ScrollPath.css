@@ -1,0 +1,28 @@
+.scrollPath{
+    height: 300vh;
+    width: 100vw;
+}
+
+#workContainer{
+    position: fixed;
+    top: 0;
+    left: 100vw;
+    z-index: 3;
+}
+
+.element{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    z-index: 2;
+    background-color: black;
+}
+
+#element1{
+    top: 100vh;
+}
+
+#element2{
+    top: -100vh;
+}

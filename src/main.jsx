@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Lander from './Lander'
 import './index.css'
+import ScrollPath from "./ScrollPath.jsx";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Lander />
+      <ScrollPath />
   </React.StrictMode>,
 )

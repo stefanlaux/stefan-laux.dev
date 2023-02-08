@@ -2,6 +2,9 @@
   height: 100vh;
   width: 100vw;
   background-color: #DCDBD9;
+  margin: 0;
+  padding: 0;
+  position: fixed;
 }
 
 h1{

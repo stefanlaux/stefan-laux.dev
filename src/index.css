@@ -10,6 +10,7 @@
   font-family: 'SF-Pro-Display', Lato, sans-serif;
   font-weight: 500;
   background-color: #DCDBD9;
+  overflow-x: hidden;
 }
 
 ::selection {
