@@ -1,8 +1,8 @@
-import './Work.css'
+import './Skills.css'
 import Grid2 from '@mui/material/Unstable_Grid2';
 
 
-function Work() {
+function Skills() {
 
 
 
@@ -47,4 +47,4 @@ function Work() {
     )
 }
 
-export default Work
+export default Skills

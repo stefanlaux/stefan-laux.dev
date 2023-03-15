@@ -3,7 +3,7 @@
     width: 100vw;
 }
 
-#workContainer{
+#skillsContainer{
     position: fixed;
     top: 0;
     left: 100vw;
@@ -26,3 +26,4 @@
 #element2{
     top: -100vh;
 }
+

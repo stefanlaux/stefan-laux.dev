@@ -20,10 +20,29 @@ function Lander() {
           <img src="./images/lander.jpeg" alt="picture stefan laux" className='landerImg'/>
         </Grid2>
         <Grid2 item xs={12} sm={6}>
-          <div className="jobtitle"><h1>SOFTWARE</h1><h1>DEVELOPER</h1><h6>- FRONT END OBSESSED -</h6></div>
+          <div className="jobtitle">
+              <h1 className={"software"} style={{position: "relative"}}>
+                  <div className={"boxCover"}></div>
+                  SOFTWARE
+              </h1>
+              <h1 style={{position: "relative"}}>
+                  <div className={"boxCover"}></div>
+                  DEVELOPER
+              </h1>
+              <h6>- FRONT END OBSESSED -</h6>
+          </div>
         </Grid2>
         <Grid2 item xs={12} sm={9} className="mobilehidden">
-          <div className="name"><h1>STEFAN</h1><h1>LAUX</h1></div>
+          <div className="name">
+              <h1 className={"firstName"}>
+                  <div className={"boxCover"}></div>
+                  STEFAN
+              </h1>
+              <h1 className={"lastName"}>
+                  <div className={"boxCover"}></div>
+                  LAUX
+                  </h1>
+          </div>
         </Grid2>
       </Grid2>
 

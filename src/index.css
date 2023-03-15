@@ -30,3 +30,16 @@ body{
   padding: 0;
   margin: 0;
 }
+
+::-webkit-scrollbar {
+  width: 9px;
+  background-color: rgba(0, 0, 0, 0.73);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.9);
+}
+
+::-webkit-scrollbar-thumb {
+  width: 7px;
+  margin: 1px;
+  border-radius: 4px;
+  background-color: rgba(157, 157, 157, 0.37);
+}

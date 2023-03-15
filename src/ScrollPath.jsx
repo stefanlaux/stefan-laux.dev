@@ -1,6 +1,6 @@
 import './ScrollPath.css'
 import Lander from "./Lander.jsx";
-import Work from "./Work.jsx";
+import Skills from "./Skills.jsx";
 import {useEffect, useState} from "react";
 import {animate} from "motion";
 
@@ -8,6 +8,7 @@ import {animate} from "motion";
 
 function ScrollPath() {
 
+    let first = true;
     const [scrolled, setScrolled] = useState(0);
 
     useEffect(() => {
@@ -25,13 +26,16 @@ function ScrollPath() {
     useEffect( () => {
         let element1 = document.getElementById("element1");
         let element2 = document.getElementById("element2");
-        let work = document.getElementById("workContainer");
-
+        let skills = document.getElementById("skillsContainer");
         if (scrolled > 90) {
-            work.style.left = 0 + "px";
-            animate(work, {opacity: 1}, {duration: 0.2});
+            skills.style.left = 0 + "px";
+            if (first) {
+                first = false
+                animate(skills, {opacity: 1}, {duration: 0.2});
+            }
         } else {
-            animate(work, {opacity: 0}, {duration: 0.05});
+            first = true
+            animate(skills, {opacity: 0}, {duration: 0.05});
         }
 
         if (scrolled < 100) {
@@ -53,7 +57,7 @@ function ScrollPath() {
 
 
             <div id="landerContainer"><Lander /></div>
-            <div id="workContainer"><Work /></div>
+            <div id="skillsContainer"><Skills /></div>
         </div>
     )
 }
