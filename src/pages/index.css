@@ -35,7 +35,7 @@
     font-size: 250%;
     background: rgb(76,81,138);
     background: linear-gradient(235.61deg, #4C518A 49.11%, #858798 76.39%);
-    mix-blend-mode: screen;
+
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
