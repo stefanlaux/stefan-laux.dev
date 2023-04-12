@@ -1,45 +1,9 @@
-@font-face {
-  font-family: 'SF-Pro-Display';
-  src: url('/fonts/SF-Pro-Display-Medium.otf') format("opentype");
-}
-
 :root {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'SF-Pro-Display', Lato, sans-serif;
-  font-weight: 500;
-  background-color: #DCDBD9;
-  overflow-x: hidden;
-}
-
-::selection {
-    color: #DCDBD9;
-    background-color: #000000;
-}
-
-img{
-  user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: black;
 }
 
 body{
-  padding: 0;
   margin: 0;
-}
-
-::-webkit-scrollbar {
-  width: 9px;
-  background-color: rgba(0, 0, 0, 0.73);
-  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.9);
-}
-
-::-webkit-scrollbar-thumb {
-  width: 7px;
-  margin: 1px;
-  border-radius: 4px;
-  background-color: rgba(157, 157, 157, 0.37);
+  padding: 0;
 }
