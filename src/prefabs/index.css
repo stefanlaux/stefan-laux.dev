@@ -32,7 +32,7 @@
     position: relative;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     font-size: clamp(2em, 8vw, 7em);
-    padding: clamp(0.25em, 1vw, 1em) clamp(1em, 4vw, 4em);
+    padding: clamp(0.2em, 1vw, 1em) clamp(1em, 4vw, 4em);
     display: block;
     color: white;
     text-decoration: none;

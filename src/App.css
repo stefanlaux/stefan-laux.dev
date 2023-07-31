@@ -1,46 +1,13 @@
-.blob{
-    background: linear-gradient(to right, aquamarine, mediumpurple);
-    height: 250px;
-    aspect-ratio: 1;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    translate: -50% -50%;
-    border-radius: 50%;
-    animation: rotate linear 20s infinite;
-    z-index: -3;
-}
-
-
-.App{
-    user-select: none;
-}
-
-.containerBackgroundEffect{
-    position: absolute;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden!important;
-}
-
-.blur{
+.fullscreen-video {
     position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    height: 100vh;
-    width: 100vw;
-    backdrop-filter: blur(100px);
-}
-
-@keyframes rotate {
-    from{
-        rotate: 0deg;
-    }
-    50%{
-        scale: 1 1.5;
-    }
-    to {
-        rotate: 360deg;
-    }
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    scale: 1;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -10;
 }
