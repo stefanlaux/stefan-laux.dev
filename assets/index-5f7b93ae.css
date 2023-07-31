@@ -1,0 +1,1 @@
+.fullscreen-video{position:fixed;overflow:hidden;top:50%;left:50%;scale:1;min-width:100%;min-height:100%;width:auto;height:auto;transform:translate(-50%) translateY(-50%);z-index:-10}:root{font-family:Inter,system-ui,Avenir,Helvetica,Arial,sans-serif;background-color:#000}body{margin:0;padding:0;overflow:hidden}
